@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background: #f9f9f9;
+        }
+
+        /* Header section */
+        header {
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        /* About Me section */
+        #about {
+            padding: 50px;
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+
+        #about h2 {
+            font-size: 2.5em;
+            color: #6e8efb;
+            margin-bottom: 20px;
+        }
+
+        #about p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        /* Projects section */
+        #projects {
+            background: #f1f1f1;
+            padding: 50px;
+        }
+
+        #projects h2 {
+            text-align: center;
+            font-size: 2.5em;
+            color: #6e8efb;
+            margin-bottom: 40px;
+        }
+
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .project img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .project img:hover {
+            transform: scale(1.05);
+        }
+
+        .project-description {
+            max-width: 500px;
+            padding: 20px;
+        }
+
+        /* Contact section */
+        #contact {
+            padding: 50px;
+            background: linear-gradient(135deg, #a777e3, #6e8efb);
+            color: white;
+            text-align: center;
+        }
+
+        #contact h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        #contact p {
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+
+        .social-links a {
+            margin: 0 15px;
+            color: white;
+            font-size: 1.5em;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #ffeb3b;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header section -->
+    <header>
+        <h1>John Doe</h1>
+        <p>Web Developer | Designer | Content Creator</p>
+    </header>
+
+    <!-- About Me section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm John, a passionate web developer with a love for design and innovation. With years of experience in HTML, CSS, and JavaScript, I create visually appealing and highly functional websites. I thrive on solving problems and bringing ideas to life through web technologies.</p>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        
+        <div class="project">
+            <img src="https://via.placeholder.com/300x200" alt="Project 1">
+            <div class="project-description">
+                <h3>Project 1</h3>
+                <p>This project is a responsive e-commerce website built with HTML, CSS, and JavaScript. It includes interactive elements and an appealing user interface.</p>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="https://via.placeholder.com/300x200" alt="Project 2">
+            <div class="project-description">
+                <h3>Project 2</h3>
+                <p>This project is a personal blog built with HTML, CSS, and JavaScript. It features a clean, modern layout with easy navigation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to connect, feel free to reach out through any of my social media channels.</p>
+        
+        <div class="social-links">
+            <a href="https://github.com/johndoe" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/johndoe" target="_blank">Twitter</a>
+        </div>
+    </section>
+
+</body>
+</html>
